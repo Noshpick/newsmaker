@@ -1,0 +1,13 @@
+aiogram==3.3.0
+groq==0.11.0
+google-generativeai==0.8.3
+openai==1.54.0
+anthropic==0.18.1
+beautifulsoup4==4.12.3
+playwright==1.41.2
+aiohttp==3.9.3
+lxml==5.1.0
+requests==2.31.0
+sqlalchemy==2.0.25
+apscheduler==3.10.4
+python-dotenv==1.0.0
