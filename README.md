@@ -59,6 +59,20 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 AI_PROVIDER=groq
 AI_API_KEY=gsk_ your_api_key_here  # Если используешь локальную модель Ollama, то API не нужен 
 
+# === ДЛЯ АВТОПОСТИНГА В TELEGRAM ===
+TELEGRAM_CHANNEL_ID=@your_channel_username
+# или числовой ID: -1001234567890
+
+# === ДЛЯ АВТОПОСТИНГА ВО ВКОНТАКТЕ ===
+VK_ACCESS_TOKEN=your_vk_access_token_here
+VK_GROUP_ID=123456789
+
+# === ДЛЯ АВТОПОСТИНГА В TWITTER ===
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+TWITTER_ACCESS_TOKEN=your_twitter_access_token
+TWITTER_ACCESS_SECRET=your_twitter_access_secret
+
 # База данных (по умолчанию SQLite)
 DATABASE_URL=sqlite:///newsmaker.db
 
