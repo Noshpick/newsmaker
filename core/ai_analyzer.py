@@ -257,5 +257,4 @@ async def test_provider(provider: str, api_key: str):
 if __name__ == "__main__":
     import asyncio
 
-    # Тест Groq
     asyncio.run(test_provider("groq", "your_groq_api_key"))
